@@ -1,0 +1,16 @@
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: url("https://wallpaperaccess.com/full/6304495.jpg");
+  background-size: contain;
+}
+
+.anim {
+  animation-name: bounce;
+  animation-duration: 0.5s;
+  animation-direction: alternate;
+  animation-timing-function: cubic-bezier(0.95, 0.05, 0.795, 0.035);
+  animation-iteration-count: infinite;
+
+}
